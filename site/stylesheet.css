@@ -1,0 +1,33 @@
+body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+    font-family: verdana;
+    font-size: 300%;
+}
+h2 {
+    font-family: sans-serif;
+    margin: 10px;
+}
+p {
+    color: rgb(0, 71, 38);
+    font-family: courier;
+    font-size: 120%;
+    border: 3px solid powderblue;
+    padding: 5px;
+    margin: 10px;
+}
+a {
+    Color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 200%;
+    margin: 15px;
+}
+button {
+    background-color: rgb(130, 173, 179);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 200%;
+    border: 1px;
+    margin: 10px;
+}
