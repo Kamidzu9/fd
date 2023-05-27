@@ -1,19 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+    </style>
     <title>My First site!</title>
     <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <!-- This is a litl bit big-->
-    <h1>My first website</h1>
-    <!-- Make button redirections to site eins-->
-    <button onclick="document.location='eins.html'">ein site</button>
-    <button onclick="document.location='second.html'">Another site</button>
+    <div class="top">
+        <!-- This is a litl bit big-->
+        <!-- <h1>My first website</h1> -->
+        <!-- Make button redirections to site eins-->
+        <div class="page-top">
+            <a href="firsthtmlsite.html"><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="logo" class="main-button"></a>
+            <a href="eins.html" class="button">Ein site</a>
+            <a href="second.html" class="button">Another site</a>
+        </div>
+    </div>
     <!--brake line-->
     <br>
     <!--Image-->
-    <img src="images/river.jpg" alt="this was downloaded from google.com" width="904" height="506">
+    <div>
+        <img src="images/river.jpg" alt="this was downloaded from google.com" width="904" height="506" style="margin-top: auto;" class="image">
+    </div>
     <p><mark>FUN</mark></p>
     <!--brake line-->
     <br>
@@ -26,9 +35,17 @@
     <p style="color:blue;">This is paragraph</p>
     <!--This is paragraph-->
     <p>This is paragraph</p>
-    <h2>Contacts:</h2>
-    <a href="mailto:senvey228@gmail.com" title="Click on this url to sent Email">Email: senvey228@gmail.com</a>
-    <br>
-    <a href="https://github.com/Kamidzu9" title="Click on this url to sent Email">My github</a>
+    <hr>
+    <div class="contacts">
+        <h2>Contacts:</h2>
+        <p style="color: rgb(121, 58, 58);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;
+        margin-bottom: 1px;
+        ">Email:<a href="mailto:senvey228@gmail.com" title="Click on this url to sent Email" style="color: aliceblue;">senvey228@gmail.com</a></p>
+        <p style="color: rgb(121, 58, 58);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 120%;">Github:<a href="https://github.com/Kamidzu9" title="Just my github" style="color: aliceblue;">Kamidzu9</a></p>
+    </div>
 </body>
 </html>
