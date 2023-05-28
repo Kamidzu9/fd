@@ -50,12 +50,13 @@
 
   .page-top{
     height: 20px;
+  
   }
 
   .button:link {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     border: none;
-    background-color: rgb(222, 222, 222);
+    background-color: rgb(255, 255, 255);
     padding: 15px 16px;
     text-align: center;
     text-decoration: none;
@@ -66,8 +67,7 @@
     margin-left: -1px;
     float: left;
     width: 200px;
-    height: auto;
-    border-radius: 4px;
+    /* height: -2px; */
     text-align: center;
     position: relative;
 }
@@ -80,15 +80,36 @@
 }
 
   .main-button {
-  height: 100px;
+    width: 62px;
+    height: 62px;
+    margin-top: 7px;
+    margin-left: -8px;
 }
 
   .main-button:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-  
 }
 
  .image{
   margin-left: 80px;
   padding-top: 40px;
+ }
+
+  table {
+  border-spacing: 30px;
+  color: wheat;
+}
+
+  table, th, td {
+  border-collapse: collapse;
+  /*border-radius: 10px;*/
+  border: 1px solid rgb(255, 255, 255);
+}
+
+  th, td {
+  background-color: cornflowerblue;
+}
+
+ .logo-button {
+  position: relative;
  }
